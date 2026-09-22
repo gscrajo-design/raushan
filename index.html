@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharma Ji Glass House | Aluminium, Glass & Wood Work in Begusarai</title>
+    <meta name="description" content="Sharma Ji Glass House in Rajaura Chowk, Begusarai. Best Aluminium Window, Glass Door, Wardrobe, and Custom Fabrication Work.">
+    <meta name="keywords" content="Sharma Ji Glass House Begusarai, Glass House in Begusarai, Aluminium Window Begusarai, Aluminium Door Begusarai, Glass Work Begusarai, Glass Railing Begusarai, Aluminium Fabrication Begusarai, Wardrobe Work Begusarai, Aluminium Window Rajaura Chowk, Glass Work Rajaura Chowk">
+    <meta property="og:title" content="Sharma Ji Glass House - Begusarai">
+    <meta property="og:description" content="Premium Aluminium, Glass, Wood and Fabrication work in Begusarai, Bihar.">
+    <meta property="og:type" content="website">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#111827',
+                            metallic: '#4b5563',
+                            light: '#f3f4f6',
+                            accent: '#2563eb'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        hindi: ['Hind', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans text-gray-800 antialiased bg-brand-light">
+
+    <!-- Header / Nav -->
+    <header class="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-2xl font-extrabold text-brand-dark tracking-tight">
+                        Sharma Ji <span class="text-brand-accent">Glass House</span>
+                    </a>
+                </div>
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="text-gray-600 hover:text-brand-accent font-medium transition">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-brand-accent font-medium transition">About</a>
+                    <a href="#services" class="text-gray-600 hover:text-brand-accent font-medium transition">Services</a>
+                    <a href="#gallery" class="text-gray-600 hover:text-brand-accent font-medium transition">Gallery</a>
+                    <a href="#contact" class="text-gray-600 hover:text-brand-accent font-medium transition">Contact</a>
+                    <a href="#contact" class="bg-brand-dark text-white px-6 py-2 rounded-md font-semibold hover:bg-gray-800 transition shadow-lg hover:shadow-xl">Get Free Quote</a>
+                </nav>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-brand-dark focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-50">Home</a>
+                <a href="#about" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-50">About</a>
+                <a href="#services" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-50">Services</a>
+                <a href="#gallery" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-50">Gallery</a>
+                <a href="#contact" class="block px-3 py-2 text-base font-medium text-gray-800 hover:bg-gray-50">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-20 pb-32 flex items-center min-h-screen bg-cover bg-center" style="background-image: linear-gradient(rgba(17, 24, 39, 0.7), rgba(17, 24, 39, 0.8)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <h2 class="text-brand-accent font-semibold tracking-wider uppercase mb-3 text-sm md:text-base">Welcome to</h2>
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-6 tracking-tight drop-shadow-lg" id="hero-title">Sharma Ji Glass House</h1>
+            <p class="text-xl md:text-3xl text-gray-200 mb-4 font-light" id="hero-tagline">Aluminium | Glass | Wood | Gate | Window | Wardrobe</p>
+            <p class="text-lg md:text-2xl text-gray-300 mb-10 font-hindi max-w-3xl mx-auto" id="hero-tagline-hindi">बेगूसराय में Aluminium, Glass, Wood एवं Custom Fabrication का भरोसेमंद काम।</p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#" id="hero-call-btn" class="bg-white text-brand-dark px-8 py-3 rounded-md font-bold text-lg hover:bg-gray-100 transition shadow-lg flex items-center justify-center gap-2">
+                    <i class="fas fa-phone-alt"></i> CALL NOW
+                </a>
+                <a href="#" id="hero-wa-btn" class="bg-[#25D366] text-white px-8 py-3 rounded-md font-bold text-lg hover:bg-[#1ebe57] transition shadow-lg flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp text-xl"></i> WHATSAPP
+                </a>
+                <a href="#contact" class="bg-brand-accent text-white px-8 py-3 rounded-md font-bold text-lg hover:bg-blue-700 transition shadow-lg flex items-center justify-center gap-2">
+                    <i class="fas fa-clipboard-list"></i> GET FREE QUOTE
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                <div class="mb-10 lg:mb-0">
+                    <div class="relative rounded-lg overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Modern Glass and Aluminium Work" class="w-full h-auto object-cover transform hover:scale-105 transition duration-700">
+                        <div class="absolute inset-0 border-4 border-white/20 rounded-lg pointer-events-none"></div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-brand-accent font-bold uppercase tracking-wider mb-2">About Us</h4>
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-brand-dark mb-6">Premium Glass & Fabrication in Begusarai</h2>
+                    <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                        At <strong class="text-brand-dark">Sharma Ji Glass House</strong>, we specialize in delivering high-quality Aluminium, Glass, Wood, Window, Door, Gate, Wardrobe, and custom fabrication solutions. 
+                    </p>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        Located in <strong class="text-brand-dark">Rajaura Chowk, Begusarai</strong>, we are committed to providing durable, modern, and aesthetically pleasing designs tailored to your specific requirements. Whether it's a residential home upgrade or a commercial shop front, our professional approach ensures reliable and timely work for all our clients in Begusarai and nearby areas.
+                    </p>
+                    
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-brand-accent mr-3 text-xl"></i> Professional Workmanship</li>
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-brand-accent mr-3 text-xl"></i> Quality Materials</li>
+                        <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-brand-accent mr-3 text-xl"></i> Customized Designs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-brand-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h4 class="text-brand-accent font-bold uppercase tracking-wider mb-2">Our Expertise</h4>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-dark">Our Main Services</h2>
+                <div class="w-24 h-1 bg-brand-accent mx-auto mt-4 rounded"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8" id="services-container">
+                <!-- Services injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-20 bg-brand-dark text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-4">Why Choose Us</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">We focus on delivering genuine value, reliable service, and professional finishing for every project.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-brand-accent/20 p-4 rounded-lg">
+                        <i class="fas fa-gem text-3xl text-brand-accent"></i>
+                    </div>
+                    <div class="ml-5">
+                        <h3 class="text-xl font-bold mb-2">Quality Materials</h3>
+                        <p class="text-gray-400">We source and use high-grade glass, aluminium, and wood for lasting durability.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-brand-accent/20 p-4 rounded-lg">
+                        <i class="fas fa-tools text-3xl text-brand-accent"></i>
+                    </div>
+                    <div class="ml-5">
+                        <h3 class="text-xl font-bold mb-2">Professional Finishing</h3>
+                        <p class="text-gray-400">Clean edges, smooth operation, and a polished look for all installations.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-brand-accent/20 p-4 rounded-lg">
+                        <i class="fas fa-pen-ruler text-3xl text-brand-accent"></i>
+                    </div>
+                    <div class="ml-5">
+                        <h3 class="text-xl font-bold mb-2">Custom Designs</h3>
+                        <p class="text-gray-400">Tailor-made solutions designed precisely to match your space and style.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-brand-accent/20 p-4 rounded-lg">
+                        <i class="fas fa-tags text-3xl text-brand-accent"></i>
+                    </div>
+                    <div class="ml-5">
+                        <h3 class="text-xl font-bold mb-2">Reasonable Pricing</h3>
+                        <p class="text-gray-400">Transparent and fair pricing without compromising on material quality.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-brand-accent/20 p-4 rounded-lg">
+                        <i class="fas fa-clock text-3xl text-brand-accent"></i>
+                    </div>
+                    <div class="ml-5">
+                        <h3 class="text-xl font-bold mb-2">Timely Work</h3>
+                        <p class="text-gray-400">We respect your time and strive to complete projects within the agreed timeframe.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-brand-accent/20 p-4 rounded-lg">
+                        <i class="fas fa-handshake text-3xl text-brand-accent"></i>
+                    </div>
+                    <div class="ml-5">
+                        <h3 class="text-xl font-bold mb-2">Local Service & Support</h3>
+                        <p class="text-gray-400">Based in Begusarai, we are always accessible for support and new requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Process -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-dark mb-4">How We Work</h2>
+                <div class="w-24 h-1 bg-brand-accent mx-auto rounded"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center relative">
+                <!-- Connecting Line for Desktop -->
+                <div class="hidden lg:block absolute top-12 left-1/8 right-1/8 h-0.5 bg-gray-200 z-0" style="width: 75%; margin-left: 12.5%;"></div>
+                
+                <div class="relative z-10">
+                    <div class="w-24 h-24 mx-auto bg-white border-4 border-brand-accent rounded-full flex items-center justify-center mb-6 shadow-lg">
+                        <i class="fas fa-phone-alt text-3xl text-brand-accent"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">1. Contact Us</h3>
+                    <p class="text-gray-600">Reach out via Call, WhatsApp, or Enquiry Form.</p>
+                </div>
+                
+                <div class="relative z-10">
+                    <div class="w-24 h-24 mx-auto bg-white border-4 border-brand-accent rounded-full flex items-center justify-center mb-6 shadow-lg">
+                        <i class="fas fa-comments text-3xl text-brand-accent"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">2. Discuss Requirement</h3>
+                    <p class="text-gray-600">Share your ideas, and we'll provide options.</p>
+                </div>
+                
+                <div class="relative z-10">
+                    <div class="w-24 h-24 mx-auto bg-white border-4 border-brand-accent rounded-full flex items-center justify-center mb-6 shadow-lg">
+                        <i class="fas fa-ruler-combined text-3xl text-brand-accent"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">3. Measurement</h3>
+                    <p class="text-gray-600">We take precise measurements and finalize design.</p>
+                </div>
+                
+                <div class="relative z-10">
+                    <div class="w-24 h-24 mx-auto bg-white border-4 border-brand-accent rounded-full flex items-center justify-center mb-6 shadow-lg">
+                        <i class="fas fa-check-double text-3xl text-brand-accent"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">4. Installation</h3>
+                    <p class="text-gray-600">Professional fitting and perfect finishing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Our Work -->
+    <section id="gallery" class="py-20 bg-brand-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h4 class="text-brand-accent font-bold uppercase tracking-wider mb-2">Portfolio</h4>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-dark">Our Recent Work</h2>
+                <div class="w-24 h-1 bg-brand-accent mx-auto mt-4 rounded"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" id="gallery-container">
+                <!-- Gallery items injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+                <div class="grid grid-cols-1 lg:grid-cols-2">
+                    <!-- Contact Info -->
+                    <div class="bg-brand-dark text-white p-10 md:p-14">
+                        <h2 class="text-3xl font-bold mb-8">Get In Touch</h2>
+                        
+                        <div class="space-y-6 mb-12">
+                            <div class="flex items-start">
+                                <i class="fas fa-map-marker-alt mt-1.5 text-xl text-brand-accent w-8"></i>
+                                <div>
+                                    <h4 class="font-bold text-lg">Location</h4>
+                                    <p class="text-gray-300" id="contact-address">Rajaura Chowk, Begusarai, Bihar, India</p>
+                                    <p class="text-sm text-brand-accent mt-1" id="contact-service-area">Serving Begusarai and nearby areas.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <i class="fas fa-phone-alt text-xl text-brand-accent w-8"></i>
+                                <div>
+                                    <h4 class="font-bold text-lg">Call Us</h4>
+                                    <a href="#" id="contact-phone" class="text-gray-300 hover:text-white transition">...</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <i class="fab fa-whatsapp text-xl text-[#25D366] w-8"></i>
+                                <div>
+                                    <h4 class="font-bold text-lg">WhatsApp</h4>
+                                    <a href="#" id="contact-wa" class="text-gray-300 hover:text-white transition">...</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold mb-4">Service Area Map</h4>
+                            <div class="h-48 bg-gray-800 rounded-lg overflow-hidden flex items-center justify-center group relative cursor-pointer" onclick="window.open(config.googleMapsLink, '_blank')">
+                                <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition duration-300"></div>
+                                <div class="text-center z-10">
+                                    <i class="fas fa-map-location-dot text-4xl text-brand-accent mb-2 group-hover:scale-110 transition duration-300"></i>
+                                    <p class="font-semibold">View on Google Maps</p>
+                                </div>
+                                <!-- Note: For production, embed actual Google Maps iframe here -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Enquiry Form -->
+                    <div class="p-10 md:p-14">
+                        <h3 class="text-2xl font-bold text-brand-dark mb-6">Send an Enquiry</h3>
+                        <form id="enquiry-form" class="space-y-6" onsubmit="event.preventDefault(); alert('Thank you for your enquiry! We will contact you soon.'); this.reset();">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                                <input type="text" id="name" required class="w-full px-4 py-3 rounded-md border border-gray-300 focus:border-brand-accent focus:ring-2 focus:ring-brand-accent/20 outline-none transition" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <label for="mobile" class="block text-sm font-medium text-gray-700 mb-1">Mobile Number</label>
+                                <input type="tel" id="mobile" required class="w-full px-4 py-3 rounded-md border border-gray-300 focus:border-brand-accent focus:ring-2 focus:ring-brand-accent/20 outline-none transition" placeholder="Your Mobile Number">
+                            </div>
+                            <div>
+                                <label for="service-req" class="block text-sm font-medium text-gray-700 mb-1">Service Required</label>
+                                <select id="service-req" required class="w-full px-4 py-3 rounded-md border border-gray-300 focus:border-brand-accent focus:ring-2 focus:ring-brand-accent/20 outline-none transition bg-white">
+                                    <option value="" disabled selected>Select a Service</option>
+                                    <option value="Aluminium Window">Aluminium Window</option>
+                                    <option value="Glass Door/Window">Glass Door/Window</option>
+                                    <option value="Wardrobe">Wardrobe</option>
+                                    <option value="Wooden Work">Wooden Work</option>
+                                    <option value="Gate">Gate (Main/Aluminium)</option>
+                                    <option value="Glass Railing">Glass Railing</option>
+                                    <option value="Office/Shop Partition">Office/Shop Partition</option>
+                                    <option value="Custom Fabrication">Custom Fabrication</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message (Optional)</label>
+                                <textarea id="message" rows="3" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:border-brand-accent focus:ring-2 focus:ring-brand-accent/20 outline-none transition" placeholder="Tell us about your requirement..."></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-brand-dark text-white font-bold py-4 rounded-md hover:bg-gray-800 transition shadow-md hover:shadow-lg">
+                                Send Enquiry
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 pt-16 pb-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Brand -->
+                <div class="lg:col-span-1">
+                    <a href="#" class="text-2xl font-extrabold text-white tracking-tight mb-4 block">
+                        Sharma Ji <span class="text-brand-accent">Glass</span>
+                    </a>
+                    <p class="text-gray-400 mb-6" id="footer-address">
+                        Rajaura Chowk, Begusarai, Bihar
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" id="footer-fb" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-accent text-white transition" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" id="footer-ig" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-brand-accent text-white transition" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="hover:text-brand-accent transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-brand-accent transition">About Us</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition">Services</a></li>
+                        <li><a href="#gallery" class="hover:text-brand-accent transition">Gallery</a></li>
+                        <li><a href="#contact" class="hover:text-brand-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div class="lg:col-span-2">
+                    <h4 class="text-white font-bold text-lg mb-4">Services</h4>
+                    <ul class="grid grid-cols-2 gap-2">
+                        <li><a href="#services" class="hover:text-brand-accent transition">Aluminium Work</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition">Glass Work</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition">Windows</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition">Doors</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition">Wardrobe</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition">Wood Work</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition">Gates</a></li>
+                        <li><a href="#services" class="hover:text-brand-accent transition">Glass Railing</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm text-gray-500 text-center md:text-left mb-4 md:mb-0">
+                    &copy; 2026 Sharma Ji Glass House. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <a href="#" id="float-wa" class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-lg hover:scale-110 transition-transform hover:shadow-xl">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <a href="#" id="float-call" class="fixed bottom-6 left-6 z-50 bg-brand-accent text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg hover:scale-110 transition-transform hover:shadow-xl md:hidden">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Sharma Ji Glass House",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+      "telephone": "+919876543210",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rajaura Chowk",
+        "addressLocality": "Begusarai",
+        "addressRegion": "Bihar",
+        "addressCountry": "IN"
+      },
+      "url": "https://example.com"
+    }
+    </script>
+</body>
+</html>

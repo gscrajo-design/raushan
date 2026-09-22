@@ -1,0 +1,42 @@
+/* Custom styles extending Tailwind CSS */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #4b5563; 
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #111827; 
+}
+
+/* Hindi Font */
+.font-hindi {
+    font-family: 'Hind', sans-serif;
+}
+
+/* Subtle animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#services-container > div {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+#gallery-container > div {
+    animation: fadeIn 0.8s ease-out forwards;
+}
