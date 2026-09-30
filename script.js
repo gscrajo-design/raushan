@@ -85,7 +85,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'Aluminium Partition Door', img: 'images/media_1790083128210.jpg' },
         { name: 'Skybond Partition Panel', img: 'images/media_1790083128294.jpg' },
         { name: 'Printed Glass Door', img: 'images/media_1790083128299.jpg' },
-        { name: 'Designer Aluminium Door', img: 'images/media_1790083128356.jpg' }
+        { name: 'Designer Aluminium Door', img: 'images/media_1790083128356.jpg' },
+        { name: 'Wooden Textured Door', img: 'images/media_1790759319866.jpg' },
+        { name: 'Ganesha Printed Door', img: 'images/media_1790759319870.jpg' },
+        { name: 'Designer Panel Door', img: 'images/media_1790759319880.jpg' }
     ];
 
     galleryItems.forEach(item => {
