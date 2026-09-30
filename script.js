@@ -27,6 +27,14 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('contact-wa').textContent = `+91 ${config.whatsapp.substring(2)}`;
     document.getElementById('float-wa').href = waLink;
     
+    // Social Links
+    if (config.socialLinks.facebook !== "#") {
+        document.getElementById('footer-fb').href = config.socialLinks.facebook;
+    }
+    if (config.socialLinks.instagram !== "#") {
+        document.getElementById('footer-ig').href = config.socialLinks.instagram;
+    }
+    
     // Mobile Menu Toggle
     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -70,15 +78,14 @@ document.addEventListener('DOMContentLoaded', () => {
         servicesContainer.appendChild(serviceCard);
     });
 
-    // Render Gallery (Placeholders)
+    // Render Gallery
     const galleryContainer = document.getElementById('gallery-container');
     const galleryItems = [
-        { name: 'Aluminium Windows', img: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { name: 'Glass Partition', img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { name: 'Modern Wardrobe', img: 'https://images.unsplash.com/photo-1595428774223-ef52624120d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { name: 'Glass Railing', img: 'https://images.unsplash.com/photo-1600607688969-a5bfcd64bd28?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { name: 'Wooden Doors', img: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' },
-        { name: 'Shop Front', img: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80' }
+        { name: 'Aluminium Door Work', img: 'images/media_1790083128203.jpg' },
+        { name: 'Aluminium Partition Door', img: 'images/media_1790083128210.jpg' },
+        { name: 'Skybond Partition Panel', img: 'images/media_1790083128294.jpg' },
+        { name: 'Printed Glass Door', img: 'images/media_1790083128299.jpg' },
+        { name: 'Designer Aluminium Door', img: 'images/media_1790083128356.jpg' }
     ];
 
     galleryItems.forEach(item => {
